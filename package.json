@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start-tsx-watch": "tsx --watch index.js"
   },
   "license": "ISC",
   "dependencies": {
     "@hono/node-server": "^1.7.0",
     "hono": "^3.12.11"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
   }
 }
